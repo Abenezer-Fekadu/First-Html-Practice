@@ -10,16 +10,9 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
-    <!-- <style>
-        body{
-            background-image: url("./assets/images/s.jpg");
-            background-repeat: no-repeat;
-        }
-    </style> -->
 <body>
-    <!-- This is the first step -->
-
     <!-- navigation -->
+<header>
     <nav class="nav">
         <h2><a href="index.html"><span class="title">A</span> F</a></h2>
         <ul>
@@ -30,38 +23,70 @@
             <li><a href="myworks.html">MYWORKS</a></li>
         </ul>
     </nav>
+</header>
 
-    <!-- <img src="./assets/images/pro.jpg" alt="Abenezer Fekadus Profile Picture">
-    <h1>Abenezer Fekadu</h1>
-    <h3>Student, Addis Ababa Univeristy</h3>
-    <p>My name is Abenezer Fekadu, I was born in a small town <br>
-        called Gursum from my mother Azalech Abebe and <br>
-        father Fekadu Tefera. I have a twin brother whose name <br>
-        nati. My family were supporting and so studied hard and <br>
-        now I am a second year student in the best university there <br>
-        is in ethiopia. In short this is the taste of my life. 
-        </p>
-        <div class="clear"></div> -->
-    <table cellspacing= "10">
-        <tr>
-            <td><img src="./assets/images/pro.jpg" alt="Abenezer Fekadus Profile Picture">
-            </td>
-            <td>
-                <h1>Abenezer Fekadu</h1>
-                <h3>Student, Addis Ababa Univeristy</h3>
-                <p>My name is Abenezer Fekadu, I was born in a small town <br>
-                    called Gursum from my mother Azalech Abebe and <br>
-                    father Fekadu Tefera. I have a twin brother whose name <br>
-                    nati. My family were supporting and so studied hard and <br>
-                    now I am a second year student in the best university there <br>
-                    is in ethiopia. In short this is the taste of my life. 
-                    </p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-        <!-- Contact form -->
+<!-- Content -->
+    <div class="img_text_container">
+        <div class="items">
+            <img src="./assets/images/pro.jpg" alt="Abenezer Fekadus Profile Picture">
+        </div>
+        <div class="items2">
+            <h1>Abenezer Fekadu</h1>
+            <h3>Student, Addis Ababa Univeristy</h3>
+            <p>My name is Abenezer Fekadu, I was born in a small town <br>
+                called Gursum from my mother Azalech Abebe and <br>
+                father Fekadu Tefera. I have a twin brother whose name <br>
+                nati. My family were supporting and so studied hard and <br>
+                now I am a second year student in the best university there <br>
+                is in ethiopia. In short this is the taste of my life. 
+                </p>
+        </div>
+    </div>
+
+ <!-- Contact form -->
+    <div class="contact_form">
         <h3>Leave your Comment Here</h3>
+        <div class="box3">
+            <div class="form sec">
+                <form method="POST" action="mailto:se.abenezer.fekadu@gmail.com" enctype="utf-8">
+                    <label for="fName">First Name</label>
+                    <input type="text" name="fName" id="fName" pattern="[A-Za-z]{4,8}" title="Enter 4 to 8 Characters" required><br>
+                    <label for="lName">Last Name</label>
+                    <input type="text" name="lName" id="lName" pattern="[A-Za-z]{4,8}" title="Enter 4 to 10 Characters" required><br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required><br>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" pattern=".{8,}" title="Enter 8 or More Caracters" required><br>
+                    <label for="url">Enter Your URL</label>
+                    <input type="url" id="url" name="url" required><br>
+                    <Label>Country</Label>
+                    <select name="country" id="">
+                        <option value="ethiopia">Ethiopia</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Nigeria">Nigeria</option>
+                    </select>
+                    <br>
+                    <label for="detail">What Do You say??</label><br><br>
+                    <textarea name="detail" id="detail" cols="30" rows="10" placeholder="Enter Your Comments Here"></textarea><br>
+                    <input type="submit" value="submit">
+
+                </form>
+            </div>
+            <div class="map sec">
+                <iframe width="700" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20University&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+        <!-- <h3>Leave your Comment Here</h3>
     <table cellspacing="50">
         <tr>
             <td>
@@ -116,17 +141,18 @@
                 <div class="mapouter"><div class="gmap_canvas"><iframe width="775" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20University&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:775px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:775px;}</style></div>            </div>
             </td>
         </tr>
-    </table>
+    </table> -->
 
-<br>
-<br>
+
+<!-- footer part -->
+<div class="footer">
+    <div class="links">
         <a href="https://www.facebook.com/" target="_blank">FaceBook</a> | <a href="https://twitter.com/login?lang=en" target="_blank">Twitter</a>
-<hr>
-
-<hr>
-<p align="Center">Developed by Abenezer Fekadu &copy;2020</p>
-<hr>
-
+    </div>
+    <div class="copyright">
+        Developed by Abenezer Fekadu &copy;2020
+    </div>
+</div>
 
 
     </body>
