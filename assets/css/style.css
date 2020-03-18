@@ -348,3 +348,40 @@ nav>ul>li>a:hover{
     clear: left;
     margin-bottom: 10%;
 }
+
+
+/* Myworks page */
+.questions{
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.np::after{
+    background: #31A8E5;
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width .3s;
+}
+.np:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+.questions li{
+    display: inline-block;
+}
+.questions li a{
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: crimson;
+    font-size: 1.3rem;
+    padding: 0 20px;
+}
+.prs{
+    height: 500px;
+    background: white;
+}
