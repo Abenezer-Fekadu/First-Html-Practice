@@ -359,7 +359,7 @@ nav>ul>li>a:hover{
     transform: translate(-50%, -50%);
 }
 .np::after{
-    background: #31A8E5;
+    background: black;
     content: "";
     display: block;
     width: 0;
@@ -382,6 +382,6 @@ nav>ul>li>a:hover{
     padding: 0 20px;
 }
 .prs{
-    height: 500px;
+    height: 100vh;
     background: white;
 }
