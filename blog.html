@@ -4,38 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abenezer F. / Blog</title>
-    <!-- <style>
-        p{
-            color: red;
-        }
-    </style> -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/images/icon.png" type="image/png">
 </head>
+
 <body>
-    <!-- <p style="color: aqua;"> This is inline</p> -->
-    
+    <!-- navigation -->
     <header>
-        <nav>
+        <nav class="nav">
+            <h2><a href="index.html"><span class="title">A</span> F</a></h2>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="gallary.html">GALLERY</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="myworks.html">MYWORKS</a></li>
             </ul>
         </nav>
     </header>
 <!-- our blog -->
         <div id="content">
             <section>
-                <p class="title">My First Post</p>
+                <p class="title">Does It Matter to Use Relative Size</p>
                 <article>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, perferendis similique? Sequi dolorum accusamus error? Rem quos dolorum consectetur aperiam. A labore ad voluptate?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, perferendis similique? Sequi dolorum accusamus error? Rem quos dolorum consectetur aperiam. A labore ad voluptate?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, perferendis similique? Sequi dolorum accusamus error? Rem quos dolorum consectetur aperiam. A labore ad voluptate?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, perferendis similique? Sequi dolorum accusamus error? Rem quos dolorum consectetur aperiam. A labore ad voluptate?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, perferendis similique? Sequi dolorum accusamus error? Rem quos dolorum consectetur aperiam. A labore ad voluptate?</p>
+                    <p>
+                        Nowdays as browsers features are advanced and matured, we had to consider how to work with those new features when designing and developing our sites. These featueres allowed us to create a robust designs. 
+                        One example of this feature is browser zooming, which allowed us users to zoom everything on the page by scaling up and down proportionally depending on our preferences. But as browsers handle page zoom for us, 
+                        there is a difference in how the the UI appears when the page is zoomed depending on the weather the default browser size has been adjested as well. Here is why it is usefull to use relative css units and unitless 
+                        values like (%,em, rem) more consistently, in our css to meet the needs of ever-changing viewport sizes. Since giving units in this way able us to zoom the viewport without loss of the content and able us to resize text without
+                        being forced to scroll both horizontally and vertically to read the content, I prefer relative sizing method.  
+                    </p>
+                    <p>
+                        The other main thing we want when we are designing a website is its flexibility, like how the site response with the browsers scale changing and still having maximum readability.
+                        So I say using relative size does matter in order to make our site more attractive and user friendly.Such as (%, em, rem) beacause this units provide flexibility and the ability to scale up and down,
+                        Instead of being stuck with fixed size. This units are scalable units which are translated by the browser into pixel values,in this case they can be translated in the browser as anything from the 16px which is default browser width to any other value depending on the font size on the design.
+                        Which makes them best for responsive design.  On the other hand if we are using px unit, it will stay explicitly fixed in size bacause the browser displays it exactly as it is. 
+                    </p>
                 </article>
-                <p class="date">March 13, 2020 : 10:30PM</p>
+                <p class="date">March 14, 2020 : 13:36PM</p>
             </section>
             <section>
                 <p class="title">My Second Post</p>
@@ -60,5 +66,17 @@
                 <p class="date">March 16, 2020 : 9:40PM</p>
             </section>
         </div>
+
+        
+<!-- footer part -->
+    <div class="footer">
+        <div class="links">
+            <a href="https://www.facebook.com/" target="_blank">FaceBook</a> | <a href="https://twitter.com/login?lang=en" target="_blank">Twitter</a>
+        </div>
+        <div class="copyright">
+            Developed by Abenezer Fekadu &copy;2020
+        </div>
+    </div>
+ 
 </body>
 </html>
