@@ -51,7 +51,7 @@ nav>ul>li>a:hover{
     border-bottom: 1px crimson solid;
 }
 .flags_container{
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
     margin: 0 13%;
     height: 900px;
     display: flex;
@@ -78,6 +78,7 @@ nav>ul>li>a:hover{
     background: #333;
     height: 40px;
     color: white;
+    margin-top: 3%;
     border-top: 1px #24ADF3 solid;
 }
 .footer .copyright{
