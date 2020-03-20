@@ -5,105 +5,10 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 body{
     background-color: #bdc3c7;
 }
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    margin-bottom: 2rem;
-} 
-.nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background: #333333;
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    align-items: center;
-    text-transform: uppercase;
-    border-bottom: 1px #24ADF3 solid;   
-    position: relative;
-}
-.nav>h2>a{
-    text-decoration: none;
-    color: white;
-}
-.title{
-    color: crimson;
-}
-nav>ul>li>a{
-    color: white;
-    text-decoration: none;
-    padding: 10px 10px;
-    border-radius: 10px;
-}
-.nav>ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-}
-nav>ul>li>a:hover{
-    background-color:red;
-}
-.contain{
-    min-height: calc(100vh -101px);
-}
-.topic{
-    padding-top: 2rem;
-    height: 50px;
-    font-size: 1.4rem;
-    text-align: center;
-    border-bottom: 1px crimson solid;
-}
-.flags_container{
-    padding: 3rem 2rem;
-    margin: 0 13%;
-    height: 900px;
-    display: flex;
-}
-.flags{
-    flex: 1;
-    background: #fff;
-    padding: 2rem;
-    margin: 2rem 2rem;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
-}
-.desc{
-    padding-top: 10px;
-    color: crimson;
-    text-align: center;
-}
-.clear{
-    clear: left;
-}
-.footer{
-    width: 100%;
-    position: relative;
-    background: #333;
-    height: 40px;
-    color: white;
-    margin-top: 3%;
-    border-top: 1px #24ADF3 solid;
-}
-.footer .copyright{
-    position: absolute;
-    width: 100%;
-    height: 20px;
-    bottom: 0px;
-    text-align: center;
-}
 /* Make the <h1> element #9b59b6*/
 h1{
     color: #9b59b6;
 }
-
 /* Make all <h2> elements orange */
 h2{
     color: orange;
@@ -140,7 +45,7 @@ div>p{
 }
 
 /*Make only inputs with type 'text' have a gray background*/
-input[type=text]{
+input[type="text"]{
     background: grey;
 }
 

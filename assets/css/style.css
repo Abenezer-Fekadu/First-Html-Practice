@@ -285,7 +285,6 @@ nav>ul>li>a:hover{
     margin-bottom: 10%;
 }
 
-
 /* Myworks page */
 .questions{
     text-transform: uppercase;
@@ -336,9 +335,12 @@ section{
     padding: 0 3rem;
 }
 article{
+    background: white;
+    padding: 2rem;
     font-size: 1.2rem;
     text-align: justify;
     line-height: 1.5rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,.2);
 }
 .title{
     font-size: 1.5rem;
@@ -359,6 +361,10 @@ article{
     padding-left: 2rem;
     padding-bottom: 1rem;
 }
+.p3{
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
 em{
     color: crimson;
     border-bottom:  1px #24ADF3 solid;
@@ -369,6 +375,20 @@ article label{
     color: grey;
     font-weight: bold;
 }
+.links a{
+    padding-left: 0.8rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #24ADF3;
+}
+.calc{
+    font-size: 1.2rem;
+    color: saddlebrown;
+}
+.percent{
+    text-align: center;
+}
+
 
 
 /* Hover Effects */

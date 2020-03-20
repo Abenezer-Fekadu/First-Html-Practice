@@ -41,19 +41,38 @@
                         Instead of being stuck with fixed size. This units are scalable units which are translated by the browser into pixel values,in this case they can be translated in the browser as anything from the 16px which is default browser width to any other value depending on the font size on the design.
                         Which makes them best for responsive design.  On the other hand if we are using px unit, it will stay explicitly fixed in size bacause the browser displays it exactly as it is. 
                     </p>
+                    <p class="links">Reference <a href="https://www.24a11y.com/2019/pixels-vs-relative-units-in-css-why-its-still-a-big-deal/" target="_blank">  Link 1</a>
+
                 </article>
                 <p class="date">March 14, 2020 : 13:36PM</p>
             </section>
             <section>
-                <p class="title">My Second Post</p>
+                <p class="title">How Does Browser Interpreate</p>
                 <article>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, perferendis similique? Sequi dolorum accusamus error? Rem quos dolorum consectetur aperiam. A labore ad voluptate?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, perferendis similique? Sequi dolorum accusamus error? Rem quos dolorum consectetur aperiam. A labore ad voluptate?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, perferendis similique? Sequi dolorum accusamus error? Rem quos dolorum consectetur aperiam. A labore ad voluptate?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, perferendis similique? Sequi dolorum accusamus error? Rem quos dolorum consectetur aperiam. A labore ad voluptate?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, perferendis similique? Sequi dolorum accusamus error? Rem quos dolorum consectetur aperiam. A labore ad voluptate?</p>
+                    <p class="p3">
+                        A web page isn’t a single entity that is downloaded and displayed on screen one pixel at a time. Instead it is essentially a series of instructions written in various types of code HTML, CSS and others — that tell the browser what to do and where and how to do it. Each browser
+                        uses a rendering engine, sometimes also referred to as a layout engine, to take the content and styling information contained within the code, and display it on screen in its fully formatted form. But to do this the browser reads the raw byte of data, and not the actual characters of code we have 
+                        written and inorder to understand it the browser works with Document Object model(DOM). Then the byte data is converted to characters which is further parsed into something called tokens.
+                        
+                         
+                    </p>
+                    <p class="p3">
+                        Depending on how large the HTML file is, the DOM construction process may take some time. No matter how small, it does take some time (no matter how minute), regardless of the file size. Nodes are also formed, and, finally, a tree structure is formed.  There’s also a CSS tree structure called the CSS Object Model (CSSOM).
+                        The DOM and CSSOM tree structures are two independent structures. The DOM contains all the information about the page’s HTML element’s relationships, while the CSSOM contains information on how the elements are styled.
+                        After all this, the browser now combines the DOM and CSSOM trees into something called a render tree.
+                        This is how the browser interpreate the bytes and turning them into rendered pixels on the screen.        
+                    </p>
+                    <p class="p3">
+                        In Simple term, the devicePixelRatio of Window interface returns the ratio of the resolution in physical pixels to the resolution in CSS pixels for the current display device. This value could also be interpreted as the ratio of pixel sizes: the size of one CSS pixel to the size of one physical pixel. In simpler terms, this tells the browser how many of the screen's actual pixels should be used to draw a single CSS pixel.
+                    </p>
+                    <label for="" class="calc">  Pixel value calculated using that percentage: </label>
+                    <p class="percent">
+                       100% = 16px <br>
+                       X    = 200px
+                    </p>
+                    <p class="links">Reference <a href="https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10/" target="_blank"> Link 1</a> <a href="https://www.makeuseof.com/tag/how-do-browsers-display-web-pages-and-why-dont-they-ever-look-the-same/" target="_blank">Link 2</a>
                 </article>
-                <p class="date">March 15, 2020 : 5:30PM</p>
+                <p class="date">March 18, 2020 : 10:50PM</p>
             </section>
             <section>
                 <p class="title">CSS3 Changes</p>
@@ -117,6 +136,8 @@
                     <p class="p2">
                         Text-shadow adds shadows to individual characters in text nodes.
                     </p>
+
+                    <p class="links">Reference <a href="https://www.educba.com/css-vs-css3/" target="_blank">Link 1</a> <a href="https://www.upwork.com/hiring/development/css-vs-css3/" target="_blank">Link 2</a>
                 </article>
                 <p class="date">March 16, 2020 : 9:40PM</p>
             </section>
