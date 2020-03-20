@@ -1,0 +1,234 @@
+
+@media screen and (max-width: 1220px){
+    /* contact psge */
+    .sec{
+        flex: 1;
+        height: 600px;
+        border-right: 1px crimson solid;
+    }
+}
+
+@media screen and (max-width: 640px){
+    /* Home page */
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav ul li{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+    nav ul li a{
+        padding: 0.6rem;
+    }
+    .img_text_container{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 12rem;
+    }
+    .items>img {
+        width: 200px;
+        height: 200px;
+        padding-right: 1rem;
+    }
+    .items{
+        margin-top: 1rem;
+        height: 220px;
+        text-align: center;
+    }
+    .items2{
+        margin-top: 2rem;
+        padding-top: 2rem;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .hobbies{
+        height: 700px;
+    }
+    .b{
+        display: flex;
+        flex-direction: column;
+    }
+    .one{
+        width: 300px;
+        margin: 1rem 2rem;
+    }
+    .work{
+        margin-top: 4rem;
+        height: 200px;
+    }
+    .work h3{
+        text-align: center;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    .two{
+        line-height: 20px;
+    }
+    .two h4{
+        color: #25AFF3;
+        font-size: 0.8rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px  solid;
+    }
+    .two p{
+        font-size: 0.6rem;
+    }
+    .skills{
+        margin: 2rem;
+        height: 150px;
+        border-bottom: 1px crimson solid;
+    }
+    .skills h3{
+        text-align: center;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    .box2{
+        padding-left: 23%;
+        display: flex;
+    }
+    .three{
+        padding-right: 2rem;
+        line-height: 16px;
+        font-size: 0.6rem;
+    }
+    .footer{
+        height: 40px;
+        font-size: 0.6rem;
+    }
+    .footer .copyright{
+        height: 6px;
+    }
+
+    /* contact page */
+    .contact_form{
+        padding-top: 3rem;
+        height: 1100px;
+        margin-bottom: 0;
+    }
+    .box3{
+        display: flex;
+        flex-direction: column;
+    } 
+    .form{
+        height: 450px;
+        padding: 0;
+        line-height: 10px;
+        box-sizing: border-box;
+    }
+    .signin{
+        margin-left: 4rem;
+        width: 200px;
+    }
+    .sec{
+        flex: none;
+        border: none;
+    }
+    .form label{
+        justify-content: center;
+        font-size: 0.9rem;
+    }
+    .map{
+        height: 200px;
+        padding: 3rem 2rem;
+    }
+    iframe{
+        width: 320px;
+        height: 320px;
+    }
+
+    /* Gallery page */
+    .h3{
+        margin-top: 7rem;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .desc{
+        font-size: 0.5rem;
+    }
+
+    /* Blog page */
+    #content{
+        margin-bottom: 2rem;
+        margin-top: 15rem;
+        padding-right: 1rem;
+    }
+    article{
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    .title{
+        font-size: 1.3rem;
+    }
+    article label{
+        padding-left: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    /* myworks page */
+
+    .questions{
+        margin-top: 30%;
+    }
+
+/* Question3 */
+.flags_container{
+    display: block;
+    padding: 3rem 0;
+    margin: 0;
+}
+.topic{
+    padding: 0;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.flags{
+    padding: 2rem;
+    margin: 2.5rem;
+}
+.two{
+    margin-left: 2.6rem;
+}
+.flags2{
+    flex: none;
+    width: 220px;
+    background: #fff;
+    padding-right: 0;
+}
+.three{
+    margin-left: 2.6rem;
+}
+.flags3{
+    flex: none;
+    width: 220px;
+    background: #fff;
+    padding-right: 0;
+}
+.desc2{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.footer2{
+    font-size: 0.8rem;
+}
+
+    /* Tic Tac Toe Board  */
+    .container{
+        width: 270px;
+        height: 270px;
+    }
+    .row{
+        height: 90px;
+    }
+    .col{
+        height: 90px;
+        width: 90px;
+        font-size: 4rem;
+    }
+}
+
+
