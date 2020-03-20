@@ -5,9 +5,11 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 body{
     background-color: #bdc3c7;
 }
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
     position: relative;
@@ -45,10 +47,12 @@ nav>ul>li>a{
     display: flex;
     align-items: center;
     list-style: none;
-    margin-right: 3rem;
 }
 nav>ul>li>a:hover{
     background-color:red;
+}
+.contain{
+    min-height: calc(100vh -101px);
 }
 .topic{
     padding-top: 2rem;

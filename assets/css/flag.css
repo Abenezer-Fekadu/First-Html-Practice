@@ -1,6 +1,7 @@
  *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
     position: relative;
@@ -16,7 +17,6 @@ header{
     background: #333333;
     padding: 1rem 2rem;
     font-size: 1rem;
-    align-items: center;
     text-transform: uppercase;
     border-bottom: 1px #24ADF3 solid;   
     position: relative;
@@ -31,20 +31,22 @@ header{
 nav>ul>li>a{
     color: white;
     text-decoration: none;
-    padding: 10px 10px;
+    padding: 1rem 1rem;
     border-radius: 10px;
 }
 .nav>ul{
     display: flex;
     align-items: center;
     list-style: none;
-    margin-right: 3rem;
 }
 nav>ul>li>a:hover{
     background-color:red;
 }
+.contain{
+    min-height: calc(100vh - 102px);
+}
 .topic{
-    padding-top: 2rem;
+    padding: 3rem 0;
     height: 50px;
     font-size: 1.4rem;
     text-align: center;
@@ -52,9 +54,9 @@ nav>ul>li>a:hover{
 }
 .flags_container{
     padding: 3rem 2rem;
-    margin: 0 13%;
-    height: 900px;
+    margin: 0 auto;
     display: flex;
+    justify-content: center;
 }
 .flags{
     flex: 1;
@@ -69,23 +71,19 @@ nav>ul>li>a:hover{
     color: crimson;
     text-align: center;
 }
-.clear{
-    clear: left;
-}
 .footer{
     width: 100%;
     position: relative;
     background: #333;
     height: 40px;
     color: white;
-    margin-top: 3%;
     border-top: 1px #24ADF3 solid;
 }
 .footer .copyright{
     position: absolute;
     width: 100%;
     height: 20px;
-    bottom: 0px;
+    bottom: 0;
     text-align: center;
 }
 
